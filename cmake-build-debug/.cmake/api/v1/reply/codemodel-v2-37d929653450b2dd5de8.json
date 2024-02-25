@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Assignment1-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Assignment1-1-Debug-84d3c52c8119f4bcc100.json",
+					"name" : "Assignment1-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Assignment1-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Assignment1-2-Debug-6a7e68fdf990be0a6b73.json",
+					"name" : "Assignment1-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Assignment1-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Assignment1-3-Debug-1fcc02c08afc8ade8323.json",
+					"name" : "Assignment1-3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Assignment2-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Assignment2-1-Debug-265493c00eef726e3725.json",
+					"name" : "Assignment2-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Assignment2-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Assignment2-2-Debug-c00553497b37c34f6938.json",
+					"name" : "Assignment2-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise2-Debug-be99a28cc99c186fb686.json",
+					"name" : "exercise2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3-1-Debug-fdd2626ee204c18a892e.json",
+					"name" : "hw3-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3-2-Debug-77c5d1467e15db3e887a.json",
+					"name" : "hw3-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw3-3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw3-3-Debug-26001d1ac2ac8ccc95a3.json",
+					"name" : "hw3-3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-f8c2f7b11a63231e9bc6.json",
+					"name" : "test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/cmake-build-debug",
+		"source" : "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
