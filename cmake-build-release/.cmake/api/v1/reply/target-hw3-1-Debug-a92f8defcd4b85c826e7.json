@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "hw1-1"
+			"path" : "hw3-1"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "hw1-1::@6890427a1f51a3e7e1df",
+	"id" : "hw3-1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "hw1-1",
-	"nameOnDisk" : "hw1-1",
+	"name" : "hw3-1",
+	"nameOnDisk" : "hw3-1",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "hw1-1.c",
+			"path" : "hw3-1.c",
 			"sourceGroupIndex" : 0
 		}
 	],
