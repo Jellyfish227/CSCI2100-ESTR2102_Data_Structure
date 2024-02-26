@@ -11,7 +11,10 @@ int max(int l, int r) {
 
 int constructTree(int *tree) {
     int element = 0;
-    int *t = tree;
+    int t[10000];
+    for (int i = 0; i < 10000; i++) {
+        t[i] = 0;
+    }
     char str[10000];
     fgets(str, 10000, stdin);
     char *sPtr = str;
@@ -46,6 +49,11 @@ int constructTree(int *tree) {
             element++;
         }
         sPtr++;
+    }
+    for (int i = 0; i < element; i++)
+    {
+        *tree = t[i];
+        tree++;
     }
     return element;
 }
@@ -84,7 +92,7 @@ int main() {
 #ifdef DEBUG
     clock_t const end = clock();
     double totalTime = (double)(end - begin) / CLOCKS_PER_SEC;
-    printf("Time: %.9f", totalTime);
+    printf("\nTime: %.9f", totalTime);
 #endif
     return 0;
 }

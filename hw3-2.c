@@ -28,12 +28,13 @@ void freeTree(struct Node* node) {
         free(node);
     }
 }
-
-void inorder(struct Node * root) {
+int count;
+void inorder(struct Node * root, int arr[]) {
     if (root == NULL) return;
-    inorder(root->left);
-    printf("%d ", root->data);
-    inorder(root->right);
+    inorder(root->left, arr);
+    arr[count] = root->data;
+    count++;
+    inorder(root->right, arr);
 }
 
 int main() {
@@ -46,6 +47,7 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         int const ROOT = 1;
+        count = 0;
         int m;
         scanf("%d", &m);
         int arr[m];
@@ -53,8 +55,22 @@ int main() {
             scanf("%d", &arr[j]);
         }
         struct Node* root = construct(arr, m, ROOT);
-        inorder(root);
-        putchar('\n');
+        inorder(root, arr);
+        for (int j = 0; j < count; j++)
+        {
+            if (j != count - 1)
+            {
+                printf("%d ", arr[j]);
+            }else
+            {
+                printf("%d", arr[j]);
+            }
+        }
+        if (i != n - 1)
+        {
+            putchar('\n');
+        }
+        
         freeTree(root);
     }
     
