@@ -29,10 +29,10 @@ int constructTree(int *tree) {
             sPtr++;
             while (*sPtr != ' ' && *sPtr != '\n') {
                 t[element] *= 10;
-                t[element] != sPtr[0] - '0';
+                t[element] += sPtr[0] - '0';
                 sPtr++;
             }
-            t[element] * -1;
+            t[element] *= -1;
             sPtr--;
             element++;
         }
@@ -73,7 +73,11 @@ int main() {
         int const ROOT = 1;
         int *treePtr = malloc(10000 * sizeof(int));
         int element = constructTree(treePtr); 
-        printf("%d\n", sumTree(treePtr, element, ROOT));
+        printf("%d", sumTree(treePtr, element, ROOT));
+        if (i != n - 1)
+        {
+            putchar('\n');
+        }
         free(treePtr);
     }
     
