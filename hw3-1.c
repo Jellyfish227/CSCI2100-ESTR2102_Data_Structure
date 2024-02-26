@@ -57,7 +57,7 @@ int sumTree(int *tree,int n, int idx) {
         return 0;
     else {
         int num = tree[idx - 1];
-        return num + max(sumTree(tree, n, idx << 1), sumTree(tree, n, (idx << 1) + 1));
+        return num + max(sumTree(tree, n, idx << 1), sumTree(tree, n, (idx << 1) + 1)); 
     }
 }
 
@@ -72,7 +72,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         int const ROOT = 1;
         int *treePtr = malloc(10000 * sizeof(int));
-        int element = constructTree(treePtr);
+        int element = constructTree(treePtr); 
         printf("%d\n", sumTree(treePtr, element, ROOT));
         free(treePtr);
     }

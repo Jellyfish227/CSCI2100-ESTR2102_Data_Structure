@@ -34,7 +34,7 @@ struct Node* newNode(int data)
     return(node);
 }
 
-struct Node *rightRotate(struct Node *y)
+struct Node *rRotate(struct Node *y)
 {
     struct Node *x = y->left;
     struct Node *T2 = x->right;
@@ -54,7 +54,7 @@ struct Node *rightRotate(struct Node *y)
     return x;
 }
 
-struct Node *leftRotate(struct Node *x)
+struct Node *lRotate(struct Node *x)
 {
     struct Node *y = x->right;
     struct Node *T2 = y->left;
@@ -106,24 +106,24 @@ struct Node* insert(struct Node* node, int data)
     // 4 cases of unbalance
     // Left Left Case
     if (balance > 1 && data < node->left->key)
-        return rightRotate(node);
+        return rRotate(node);
 
     // Right Right Case
     if (balance < -1 && data > node->right->key)
-        return leftRotate(node);
+        return lRotate(node);
 
     // Left Right Case
     if (balance > 1 && data > node->left->key)
     {
-        node->left =  leftRotate(node->left);
-        return rightRotate(node);
+        node->left =  lRotate(node->left);
+        return rRotate(node);
     }
 
     // Right Left Case
     if (balance < -1 && data < node->right->key)
     {
-        node->right = rightRotate(node->right);
-        return leftRotate(node);
+        node->right = rRotate(node->right);
+        return lRotate(node);
     }
 
     /* return the (unchanged) node pointer */
