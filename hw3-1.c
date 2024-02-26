@@ -9,14 +9,24 @@ int max(int l, int r) {
         return r;
 }
 
+int checkNull(int *tree, int idx,int n) {
+    if (idx > n) //check exist
+        return 1;
+    if (tree[idx - 1] <= -10000*10010) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
 int constructTree(int *tree) {
     int element = 0;
     int t[10000];
     for (int i = 0; i < 10000; i++) {
         t[i] = 0;
     }
-    char str[10000];
-    fgets(str, 10000, stdin);
+    char str[100000];
+    fgets(str, 100000, stdin);
     char *sPtr = str;
     while (*sPtr != '\0') {
         if (*sPtr == ' ') {
@@ -26,7 +36,7 @@ int constructTree(int *tree) {
             break;
 
         if (*sPtr == '#') {
-            t[element++] = 10001;
+            t[element++] = -10000*10010;
         }
         else if (*sPtr == '-') {
             sPtr++;
@@ -39,7 +49,7 @@ int constructTree(int *tree) {
             sPtr--;
             element++;
         }
-        else if (*sPtr > '0' && *sPtr < '9') {
+        else if (*sPtr >= '0' && *sPtr <= '9') {
             while (*sPtr != ' ' && *sPtr != '\n') {
                 t[element] *= 10;
                 t[element] += sPtr[0] - '0';
@@ -59,13 +69,16 @@ int constructTree(int *tree) {
 }
 
 int sumTree(int *tree,int n, int idx) {
-    if (idx > n)
-        return 0;
-    if (tree[idx - 1] == 10001)
-        return 0;
-    else {
-        int num = tree[idx - 1];
-        return num + max(sumTree(tree, n, idx << 1), sumTree(tree, n, (idx << 1) + 1)); 
+    int num = tree[idx - 1];
+
+    if (checkNull(tree, idx << 1, n) && checkNull(tree, (idx << 1) + 1, n)) {
+        return num;
+    } else if (checkNull(tree, idx << 1, n)) {
+        return num + sumTree(tree, n, (idx << 1) + 1);
+    } else if (checkNull(tree, (idx << 1) + 1, n)) {
+        return num + sumTree(tree, n, idx << 1);
+    } else {
+        return num + max(sumTree(tree, n, idx << 1), sumTree(tree, n, (idx << 1) + 1));
     }
 }
 
