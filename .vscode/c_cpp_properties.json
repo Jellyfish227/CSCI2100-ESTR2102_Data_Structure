@@ -9,7 +9,9 @@
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
             ],
-            "cppStandard": "c++17"
+            "cppStandard": "c++17",
+            "cStandard": "gnu99",
+            "compilerPath": "/opt/homebrew/bin/gcc-13"
         }
     ],
     "version": 4

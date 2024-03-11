@@ -4,9 +4,30 @@
 #include <time.h>
 #include <stdbool.h>
 
-int insert(int n, int arr[], int size){
-    
-    return 0;
+int min(int l, int r){
+    return (l < r) ? l : r ;
+}
+
+void insert(int n, int arr[], int i, int k){
+    if (i > k) {
+        if (!(n < arr[k - 1]))
+            return;
+    }
+    for (int j = 0; j < min(i, k); j++)
+    {
+        if (n < arr[j])
+        {
+            int temp = arr[j];
+            arr[j] = n;
+            insert(temp, arr, i, k);
+        } else if (i <= k){
+            if (j == i - 1)
+            {
+                arr[j] = n;
+            }
+        }
+    }
+    return;
 }
 
 int main() {
@@ -17,8 +38,8 @@ int main() {
     int k;
     int i = 0;
     scanf("%d", &k);
-    int arr[1000000];
-    unsigned int n;
+    int arr[k];
+
     char input;
     do
     {
@@ -27,13 +48,10 @@ int main() {
         {
             int n;
             scanf("%d", &n);
-            insert(n, arr, ++i);
+            insert(n, arr, ++i, k);
         } else if (input == 'O'){
-            printf("%d\n", arr[2]);
-        } else if (input == 'S'){
-            return 0;
-        }
-        
+            printf("%d\n", arr[k-1]);
+        } 
     } while (input != 'S');
 
 #ifdef DEBUG
