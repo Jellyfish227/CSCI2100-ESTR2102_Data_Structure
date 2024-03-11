@@ -20,14 +20,15 @@ void insert(int n, int arr[], int i, int k){
             int temp = arr[j];
             arr[j] = n;
             insert(temp, arr, i, k);
+            return;
         } else if (i <= k){
             if (j == i - 1)
             {
                 arr[j] = n;
+                return;
             }
         }
     }
-    return;
 }
 
 int main() {
