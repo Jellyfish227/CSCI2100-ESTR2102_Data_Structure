@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-13   -g -arch arm64 -o CMakeFiles/hw4-1.dir/hw4-1.c.o -c /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw4-1.c",
+  "file": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw4-1.c",
+  "output": "CMakeFiles/hw4-1.dir/hw4-1.c.o"
+}
+]

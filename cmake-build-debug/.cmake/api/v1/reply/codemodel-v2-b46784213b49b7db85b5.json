@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "untitled",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "hw4-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hw4-1-Debug-a74b568ab01cc389b999.json",
+					"jsonFile" : "target-hw4-1-Debug-41d6499a071ff6192ed0.json",
 					"name" : "hw4-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4-2-Debug-8a886508a1940865ae50.json",
+					"name" : "hw4-2",
 					"projectIndex" : 0
 				}
 			]

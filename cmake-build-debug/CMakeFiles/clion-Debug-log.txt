@@ -1,10 +1,15 @@
 "/Users/jellyfish/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/jellyfish/Applications/CLion Nova.app/Contents/bin/ninja/mac/aarch64/ninja" "-DCMAKE_C_FLAGS_DEBUG:STRING=-g -DDEBUG" -G Ninja -S /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure -B /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/cmake-build-debug
--- The C compiler identification is AppleClang 15.0.0.15000100
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Configuring done (0.5s)
+CMake Warning at /Users/jellyfish/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake:308 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Users/jellyfish/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake:34 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/cmake-build-debug

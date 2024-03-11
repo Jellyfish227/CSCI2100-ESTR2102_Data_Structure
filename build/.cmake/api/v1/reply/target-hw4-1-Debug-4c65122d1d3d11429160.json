@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -DDEBUG -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics"
+					"fragment" : "-g -arch arm64"
 				}
 			],
 			"language" : "C",
@@ -59,7 +59,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g -DDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{

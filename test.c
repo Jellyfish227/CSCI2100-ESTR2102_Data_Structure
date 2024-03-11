@@ -2,19 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 // Driver code
 int main()
 {
-	int m;
-	scanf("%d", &m);
-	int *s = malloc(m * sizeof(int));
-	int *p = s;
-	for (int i = 0; i < m; i++) {
- 		scanf("%d", p++);
- 	}
-	for (int i = 0; i < m; i++) {
-		printf("%d\n", *s++);
+	for (int i = 0; i < 100000000; i++)
+	{
+		printf("%d\r", i);
 	}
-	free(s);
+	
 }
