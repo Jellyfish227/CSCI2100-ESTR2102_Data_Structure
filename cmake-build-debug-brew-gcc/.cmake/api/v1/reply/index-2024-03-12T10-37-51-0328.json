@@ -8,25 +8,25 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "/Users/jellyfish/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/bin/cmake",
-			"cpack" : "/Users/jellyfish/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/bin/cpack",
-			"ctest" : "/Users/jellyfish/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/bin/ctest",
-			"root" : "/Users/jellyfish/Applications/CLion Nova.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28"
+			"cmake" : "/Users/jellyfish/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake",
+			"cpack" : "/Users/jellyfish/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cpack",
+			"ctest" : "/Users/jellyfish/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest",
+			"root" : "/Users/jellyfish/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 28,
-			"patch" : 1,
-			"string" : "3.28.1",
+			"minor" : 27,
+			"patch" : 8,
+			"string" : "3.27.8",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-4caa77b0b3242383710f.json",
+			"jsonFile" : "codemodel-v2-b3eff428bca57cf8c297.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-4fb02bed653d26eac7be.json",
+			"jsonFile" : "cache-v2-767bee8bcaf8c6597812.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-8dcec40bdd664ec92181.json",
+			"jsonFile" : "cmakeFiles-v1-7f85874c61eb3026688f.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -66,7 +66,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-4fb02bed653d26eac7be.json",
+			"jsonFile" : "cache-v2-767bee8bcaf8c6597812.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,7 +76,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-8dcec40bdd664ec92181.json",
+			"jsonFile" : "cmakeFiles-v1-7f85874c61eb3026688f.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -86,7 +86,7 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-4caa77b0b3242383710f.json",
+			"jsonFile" : "codemodel-v2-b3eff428bca57cf8c297.json",
 			"kind" : "codemodel",
 			"version" : 
 			{

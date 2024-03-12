@@ -8,3 +8,4 @@ SET(CMAKE_BUILD_TYPE Debug)
 
 add_executable(hw4-1 hw4-1.c)
 add_executable(hw4-2 hw4-2.c)
+add_executable(test test.c)
