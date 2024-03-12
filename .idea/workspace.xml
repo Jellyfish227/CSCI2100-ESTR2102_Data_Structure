@@ -23,34 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f45cc11-246f-43de-b7ee-19a829fd6325" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CSCI2100-ESTR2102_Data_Structure.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.cmake/api/v1/reply/cache-v2-4fb02bed653d26eac7be.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.cmake/api/v1/reply/cmakeFiles-v1-8dcec40bdd664ec92181.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.cmake/api/v1/reply/codemodel-v2-4caa77b0b3242383710f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.cmake/api/v1/reply/index-2024-03-11T12-16-34-0760.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/3.28.1/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/3.28.1/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/3.28.1/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/clion-Debug-Brew gcc-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/clion-Debug-Brew gcc-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/hw4-2.dir/hw4-2.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/codemodel-v2-56353dc182a9704bab4d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/index-2024-03-11T10-13-23-0267.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/compile_commands.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw4-1" beforeDir="false" afterPath="$PROJECT_DIR$/hw4-1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw4-1.c" beforeDir="false" afterPath="$PROJECT_DIR$/hw4-1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw4-2" beforeDir="false" afterPath="$PROJECT_DIR$/hw4-2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw4-2.c" beforeDir="false" afterPath="$PROJECT_DIR$/hw4-2.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
     </list>
@@ -174,7 +157,7 @@
       <workItem from="1710204236041" duration="4649000" />
       <workItem from="1710239564037" duration="10000" />
       <workItem from="1710239688171" duration="225000" />
-      <workItem from="1710239920018" duration="2045000" />
+      <workItem from="1710239920018" duration="2645000" />
     </task>
     <servers />
   </component>

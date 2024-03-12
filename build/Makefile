@@ -129,6 +129,32 @@ hw4-1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-1.dir/build.make CMakeFiles/hw4-1.dir/build
 .PHONY : hw4-1/fast
 
+#=============================================================================
+# Target rules for targets named hw4-2
+
+# Build rule for target.
+hw4-2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hw4-2
+.PHONY : hw4-2
+
+# fast build rule for target.
+hw4-2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-2.dir/build.make CMakeFiles/hw4-2.dir/build
+.PHONY : hw4-2/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
+
 hw4-1.o: hw4-1.c.o
 .PHONY : hw4-1.o
 
@@ -153,6 +179,54 @@ hw4-1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-1.dir/build.make CMakeFiles/hw4-1.dir/hw4-1.c.s
 .PHONY : hw4-1.c.s
 
+hw4-2.o: hw4-2.c.o
+.PHONY : hw4-2.o
+
+# target to build an object file
+hw4-2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-2.dir/build.make CMakeFiles/hw4-2.dir/hw4-2.c.o
+.PHONY : hw4-2.c.o
+
+hw4-2.i: hw4-2.c.i
+.PHONY : hw4-2.i
+
+# target to preprocess a source file
+hw4-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-2.dir/build.make CMakeFiles/hw4-2.dir/hw4-2.c.i
+.PHONY : hw4-2.c.i
+
+hw4-2.s: hw4-2.c.s
+.PHONY : hw4-2.s
+
+# target to generate assembly for a file
+hw4-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-2.dir/build.make CMakeFiles/hw4-2.dir/hw4-2.c.s
+.PHONY : hw4-2.c.s
+
+test.o: test.c.o
+.PHONY : test.o
+
+# target to build an object file
+test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.o
+.PHONY : test.c.o
+
+test.i: test.c.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +236,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... hw4-1"
+	@echo "... hw4-2"
+	@echo "... test"
 	@echo "... hw4-1.o"
 	@echo "... hw4-1.i"
 	@echo "... hw4-1.s"
+	@echo "... hw4-2.o"
+	@echo "... hw4-2.i"
+	@echo "... hw4-2.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

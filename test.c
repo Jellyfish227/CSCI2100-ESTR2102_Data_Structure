@@ -4,22 +4,20 @@
 #include <string.h>
 #include <ctype.h>
 
-void swap(int *left, int *right)
+void swap(int arr[], int a, int b)
 {
-	int temp = *left;
-	*left = *right;
-	*right = temp;
+	int temp = arr[a];
+	arr[a] = arr[b];
+	arr[b] = temp;
 }
 
 // Driver code
 int main()
 {
 	int arr[3] = {1,2,3};
-	int idx = 1;
-	int left = idx << 1;
-	int right = (idx << 1) + 1;
-	int *root = &arr[idx - 1];
-	swap(root, &arr[right - 1]);
+	int a = 0;
+	int b = 2;
+	swap(arr, a, b);
 	printf("%d %d %d", arr[0], arr[1], arr[2]);
 
 }

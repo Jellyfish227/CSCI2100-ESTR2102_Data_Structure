@@ -3,67 +3,26 @@
 #include <stdlib.h>
 #include <time.h>
 
-struct Node
-{
-    int data;
-    struct Node* left;
-    struct Node* right;
-};
-
-struct Node *newNode(int data) {
-    struct Node* node = malloc(sizeof(struct Node));
-    node->data = data;
-    node->left = NULL;
-    node->right = NULL;
+int max(int x, int y){
+    return (x > y) ? x : y;
 }
 
-struct Node *minNode(struct Node *x, struct Node *y){
-    return (x->data < y->data) ? x : y;
-}
-
-void swap(struct Node *l, struct Node *r){
-    struct Node *temp;
-    temp->left = r->left;
-    temp->right = r->right;
-    r->left = l->left;
-    r->right = l->right;
-    l->left = temp->left;
-    l->right = temp->right;
-}
-
-int checkBreak(struct Node *node){
-    if (node == NULL)
-        return 0;
-    struct Node *temp = minNode(node->left, node->right);
-    if (temp->data < node->data){
-        swap(node, temp);
+int isHeap(int arr[], int size, int idx){
+    if (idx > size)
+    {
+        return -1;
     }
-
-}
-
-struct Node *insert(struct Node *node, int data){
-    if (node == NULL)
-        return (newNode(data));
-    else if (node->left == NULL)
-        insert(node->left, data);
-    else if (node->right == NULL)
-        insert(node->right, data);
-
-    if (data < node->data){
-        node->left = newNode(data);
-//        int temp = node->data;
-//        node->data = node->left->data;
-//        node->left->data = temp;
+    int left = idx << 1;
+    int right = (idx << 1) + 1;
+    int maxNum = max(isHeap(arr, size, left), isHeap(arr, size, right));
+    if (maxNum > arr[idx - 1])
+    {
+        maxNum = (maxNum == arr[left - 1] ? left - 1 : right - 1);
+        int temp = arr[idx - 1];
+        arr[idx - 1] = arr[maxNum];
+        arr[maxNum] = temp;
     }
-    else if (data > node->data)
-}
-
-void freeTree(struct Node *node) {
-    if (node != NULL) {
-        freeTree(node->left);
-        freeTree(node->right);
-        free(node);
-    }
+    return arr[idx - 1];
 }
 
 int main() {
@@ -74,7 +33,7 @@ int main() {
     int k;
     int i = 0;
     scanf("%d", &k);
-    int arr[k];
+    int maxHeap[k];
     int size = 0;
 
     char input;
@@ -85,17 +44,19 @@ int main() {
         {
             int n;
             scanf("%d", &n);
-            arr[size++] = n;
-            checkHeap(arr, size, 1);
-            // insert(n, arr, ++i, k);
-        } else if (input == 'O'){
-            int j = size;
-            int sorted[j];
-            for (int i = 0; i < j; i++)
+            size++;
+            if (size <= k)
             {
-                sorted[i] = heapDequeue(arr, &size);
+                maxHeap[size - 1] = n;
+            } else if (n < maxHeap[0])
+            {
+                maxHeap[0] = n;
             }
-            printf("%d\n", sorted[k-1]);
+            isHeap(maxHeap, (size < k) ? size : k, 1);
+
+        } else if (input == 'O'){
+            
+            printf("%d\n", maxHeap[0]);
         } 
     } while (input != 'S');
 
