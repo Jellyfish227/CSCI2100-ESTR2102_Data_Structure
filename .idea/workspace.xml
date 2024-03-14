@@ -11,6 +11,7 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
+      <config projectName="untitled" targetName="hw4-2_copy" />
       <config projectName="untitled" targetName="hw4-2" />
       <config projectName="untitled" targetName="hw4-1" />
       <config projectName="untitled" targetName="test" />
@@ -24,18 +25,23 @@
   <component name="ChangeListManager">
     <list default="true" id="1f45cc11-246f-43de-b7ee-19a829fd6325" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/codemodel-v2-56353dc182a9704bab4d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/index-2024-03-11T10-13-23-0267.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw4-1" beforeDir="false" afterPath="$PROJECT_DIR$/hw4-1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw4-1.c" beforeDir="false" afterPath="$PROJECT_DIR$/hw4-1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/.cmake/api/v1/reply/index-2024-03-12T14-00-24-0569.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.cmake/api/v1/reply/cache-v2-767bee8bcaf8c6597812.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.cmake/api/v1/reply/cmakeFiles-v1-7f85874c61eb3026688f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.cmake/api/v1/reply/codemodel-v2-b3eff428bca57cf8c297.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.cmake/api/v1/reply/index-2024-03-12T10-37-51-0328.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/clion-Debug-Brew gcc-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/clion-Debug-Brew gcc-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/hw4-2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-brew-gcc/hw4-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4-2" beforeDir="false" afterPath="$PROJECT_DIR$/hw4-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw4-2.c" beforeDir="false" afterPath="$PROJECT_DIR$/hw4-2.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,39 +95,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.hw4-2.c.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.hw4-1.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.hw4-2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw4&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.hw4-2.c.executor": "Run",
+    "CMake Application.hw4-1.executor": "Run",
+    "CMake Application.hw4-2.executor": "Debug",
+    "CMake Application.hw4-2_copy.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "hw4",
+    "last_opened_file_path": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="CMake Application.hw4-1">
+}]]></component>
+  <component name="RunManager" selected="CMake Application.hw4-2_copy">
     <configuration name="hw4-1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled" TARGET_NAME="hw4-1" CONFIG_NAME="Debug-Brew gcc" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="hw4-1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="hw4-2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled" TARGET_NAME="hw4-2" CONFIG_NAME="Debug-Brew gcc" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="hw4-2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hw4-2_copy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="untitled" TARGET_NAME="hw4-2_copy" CONFIG_NAME="Debug-Brew gcc" RUN_TARGET_PROJECT_NAME="untitled" RUN_TARGET_NAME="hw4-2_copy">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -140,6 +152,7 @@
     <list>
       <item itemvalue="CMake Application.hw4-1" />
       <item itemvalue="CMake Application.hw4-2" />
+      <item itemvalue="CMake Application.hw4-2_copy" />
       <item itemvalue="CMake Application.test" />
     </list>
   </component>
@@ -158,6 +171,8 @@
       <workItem from="1710239564037" duration="10000" />
       <workItem from="1710239688171" duration="225000" />
       <workItem from="1710239920018" duration="2645000" />
+      <workItem from="1710312205981" duration="4472000" />
+      <workItem from="1710401310972" duration="1555000" />
     </task>
     <servers />
   </component>
@@ -168,17 +183,6 @@
     <isAutomaticCheckingOnLaunch value="false" />
     <isAutomaticFoundErrors value="true" />
     <isAutomaticReloadCMake value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/hw4-2.c</url>
-          <line>131</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
