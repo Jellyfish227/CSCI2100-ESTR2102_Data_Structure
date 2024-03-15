@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -52,6 +54,13 @@
 					"id" : "hw4-2::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-hw4-2-Debug-39d9e85a6c76e30a5cc0.json",
 					"name" : "hw4-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hw4-2_copy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hw4-2_copy-Debug-70dd9fecb831e1853fba.json",
+					"name" : "hw4-2_copy",
 					"projectIndex" : 0
 				},
 				{

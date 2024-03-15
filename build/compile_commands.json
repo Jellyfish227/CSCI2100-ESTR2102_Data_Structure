@@ -16,5 +16,11 @@
   "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-13   -g -arch arm64 -o CMakeFiles/test.dir/test.c.o -c /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/test.c",
   "file": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/test.c",
   "output": "CMakeFiles/test.dir/test.c.o"
+},
+{
+  "directory": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-13   -g -arch arm64 -o CMakeFiles/hw4-2_copy.dir/hw4-2_copy.c.o -c /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw4-2_copy.c",
+  "file": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw4-2_copy.c",
+  "output": "CMakeFiles/hw4-2_copy.dir/hw4-2_copy.c.o"
 }
 ]

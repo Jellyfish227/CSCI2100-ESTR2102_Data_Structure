@@ -155,6 +155,19 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+#=============================================================================
+# Target rules for targets named hw4-2_copy
+
+# Build rule for target.
+hw4-2_copy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hw4-2_copy
+.PHONY : hw4-2_copy
+
+# fast build rule for target.
+hw4-2_copy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-2_copy.dir/build.make CMakeFiles/hw4-2_copy.dir/build
+.PHONY : hw4-2_copy/fast
+
 hw4-1.o: hw4-1.c.o
 .PHONY : hw4-1.o
 
@@ -203,6 +216,30 @@ hw4-2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-2.dir/build.make CMakeFiles/hw4-2.dir/hw4-2.c.s
 .PHONY : hw4-2.c.s
 
+hw4-2_copy.o: hw4-2_copy.c.o
+.PHONY : hw4-2_copy.o
+
+# target to build an object file
+hw4-2_copy.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-2_copy.dir/build.make CMakeFiles/hw4-2_copy.dir/hw4-2_copy.c.o
+.PHONY : hw4-2_copy.c.o
+
+hw4-2_copy.i: hw4-2_copy.c.i
+.PHONY : hw4-2_copy.i
+
+# target to preprocess a source file
+hw4-2_copy.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-2_copy.dir/build.make CMakeFiles/hw4-2_copy.dir/hw4-2_copy.c.i
+.PHONY : hw4-2_copy.c.i
+
+hw4-2_copy.s: hw4-2_copy.c.s
+.PHONY : hw4-2_copy.s
+
+# target to generate assembly for a file
+hw4-2_copy.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw4-2_copy.dir/build.make CMakeFiles/hw4-2_copy.dir/hw4-2_copy.c.s
+.PHONY : hw4-2_copy.c.s
+
 test.o: test.c.o
 .PHONY : test.o
 
@@ -237,6 +274,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... hw4-1"
 	@echo "... hw4-2"
+	@echo "... hw4-2_copy"
 	@echo "... test"
 	@echo "... hw4-1.o"
 	@echo "... hw4-1.i"
@@ -244,6 +282,9 @@ help:
 	@echo "... hw4-2.o"
 	@echo "... hw4-2.i"
 	@echo "... hw4-2.s"
+	@echo "... hw4-2_copy.o"
+	@echo "... hw4-2_copy.i"
+	@echo "... hw4-2_copy.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
