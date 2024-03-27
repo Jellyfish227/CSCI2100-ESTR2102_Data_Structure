@@ -1,4 +1,0 @@
-/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/cmake-build-debug/CMakeFiles/hw2-1.dir
-/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/cmake-build-debug/CMakeFiles/hw2-2.dir
-/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
