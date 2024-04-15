@@ -1,19 +1,19 @@
 [
 {
   "directory": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/build",
-  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/hw3-1.dir/hw3-1.c.o -c /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw3-1.c",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-13   -g -arch arm64 -o CMakeFiles/hw3-1.dir/hw3-1.c.o -c /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw3-1.c",
   "file": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw3-1.c",
   "output": "CMakeFiles/hw3-1.dir/hw3-1.c.o"
 },
 {
   "directory": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/build",
-  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/hw3-2.dir/hw3-2.c.o -c /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw3-2.c",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-13   -g -arch arm64 -o CMakeFiles/hw3-2.dir/hw3-2.c.o -c /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw3-2.c",
   "file": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw3-2.c",
   "output": "CMakeFiles/hw3-2.dir/hw3-2.c.o"
 },
 {
   "directory": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/build",
-  "command": "/usr/bin/clang   -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/hw3-3.dir/hw3-3.c.o -c /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw3-3.c",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-gcc-13   -g -arch arm64 -o CMakeFiles/hw3-3.dir/hw3-3.c.o -c /Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw3-3.c",
   "file": "/Users/jellyfish/Documents/CUHK/Year_2/Spring/CSCI2100-ESTR2102_Data_Structure/hw3-3.c",
   "output": "CMakeFiles/hw3-3.dir/hw3-3.c.o"
 }

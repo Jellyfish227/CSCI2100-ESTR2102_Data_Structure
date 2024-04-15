@@ -43,21 +43,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "hw3-1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hw3-1-Debug-8dda2f07e2de8596091c.json",
+					"jsonFile" : "target-hw3-1-Debug-2177b2101d4f7d7a0931.json",
 					"name" : "hw3-1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "hw3-2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hw3-2-Debug-a28d0590f9542b5bbac0.json",
+					"jsonFile" : "target-hw3-2-Debug-01537d9b82dd26e3c867.json",
 					"name" : "hw3-2",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "hw3-3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-hw3-3-Debug-dcb7170a0eadd4cf3ef6.json",
+					"jsonFile" : "target-hw3-3-Debug-b6aee8a66edcdb18fc81.json",
 					"name" : "hw3-3",
 					"projectIndex" : 0
 				}
@@ -73,6 +73,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 6
+		"minor" : 7
 	}
 }
